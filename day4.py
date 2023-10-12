@@ -14,4 +14,4 @@ while today != "Kamis" and uts_semantik == "belum belajar":
 
 print("Hari ini adalah", today)
 print("Besok adalah hari Kamis dan saya", uts_semantik, "untuk UTS semantik.")
-print("Anda telah memutuskan untuk belajar, jadi semoga Tuhan dan alam berpihak kepada saya.!")
+print("saya telah memutuskan untuk belajar, jadi semoga Tuhan dan alam berpihak kepada saya.!")
