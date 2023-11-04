@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test/BottomNav.dart';
+import 'package:test/Grid.dart';
 import 'package:test/ListViewVH.dart';
 import 'package:test/columnROW.dart';
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RowColumn()
+      home: IniGrid()
 
     );
   }
