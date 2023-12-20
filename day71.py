@@ -1,7 +1,11 @@
-array1 = [6, 8, 6, 8]
-array2 = [1, 3, 5, 7]
-
-hasil = [a * b for a, b in zip(array1, array2)]
-print("Array 1:", array1)
-print("Array 2:", array2)
-print("Hasil Perkalian:", hasil)
+nilai_ujian = []
+for i in range(5):
+  nilai = int(input("Masukkan nilai ujian siswa: "))
+  nilai_ujian.append(nilai)
+jumlah_lulus = 0
+for nilai in nilai_ujian:
+  if nilai >= 70:
+    jumlah_lulus += 1
+jumlah_tidak_lulus = 5 - jumlah_lulus
+print("Jumlah siswa yang lulus:", jumlah_lulus)
+print("Jumlah siswa yang tidak lulus:", jumlah_tidak_lulus)
